@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.7'
+# Bundle edge Rails instead:
+gem 'rails', github: 'rails/rails', branch: 'main'
+# gem 'rails', '5.0.7'
 gem 'actionpack-action_caching'
 
 group :development, :test do
